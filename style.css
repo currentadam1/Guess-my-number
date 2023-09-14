@@ -121,7 +121,7 @@ h1 {
 @media screen and (max-width: 480px) {
   body {
     font-size: 1.4rem;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   header {
@@ -130,7 +130,7 @@ h1 {
   }
 
   main {
-    height: 100vh;
+    height: 80vh;
   }
 
   .left,
