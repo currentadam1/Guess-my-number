@@ -118,37 +118,35 @@ h1 {
   margin-bottom: 2rem;
 }
 
-/* Your existing CSS code here */
-
-/* Media query for mobile devices with a maximum width of 480px */
 @media screen and (max-width: 480px) {
   body {
-    font-size: 1.4rem; /* Adjust the font size for smaller screens */
+    font-size: 1.4rem;
+    height: 100vh;
   }
 
   header {
-    height: 40vh; /* Adjust header height for smaller screens */
-    border-bottom: 3px solid #eee; /* Adjust border size for smaller screens */
+    height: 40vh;
+    border-bottom: 3px solid #eee;
   }
 
   main {
-    height: 80vh; /* Adjust main height for smaller screens */
+    height: 100vh;
   }
 
   .left,
   .right {
-    width: 100%; /* Make the columns take up full width on smaller screens */
-    font-size: 1.8rem; /* Adjust font size for smaller screens */
+    width: 100%;
+    font-size: 1.8rem;
   }
 
   h1 {
-    font-size: 3rem; /* Adjust font size for smaller screens */
+    font-size: 3rem;
   }
 
   .number {
-    font-size: 4rem; /* Adjust font size for smaller screens */
-    width: 10rem; /* Adjust width for smaller screens */
-    padding: 2rem 0rem; /* Adjust padding for smaller screens */
+    font-size: 4rem;
+    width: 10rem;
+    padding: 2rem 0rem;
   }
 
   .between {
@@ -158,31 +156,31 @@ h1 {
     right: 7rem;
   }
   .again {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
-    top: 4rem; /* Adjust top positioning for smaller screens */
-    right: 13rem; /* Adjust right positioning for smaller screens */
-    left: 13rem; /* Adjust left positioning for smaller screens */
+    font-size: 1.2rem;
+    top: 4rem;
+    right: 13rem;
+    left: 13rem;
   }
 
   .guess {
-    font-size: 3rem; /* Adjust font size for smaller screens */
-    width: 10rem; /* Adjust width for smaller screens */
-    padding: 1.5rem; /* Adjust padding for smaller screens */
-    margin-bottom: 2rem; /* Adjust margin for smaller screens */
+    font-size: 3rem;
+    width: 10rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .btn {
-    font-size: 1.6rem; /* Adjust font size for smaller screens */
-    padding: 1.5rem 2rem; /* Adjust padding for smaller screens */
+    font-size: 1.6rem;
+    padding: 1.5rem 2rem;
   }
 
   .message {
-    margin-bottom: 4rem; /* Adjust margin for smaller screens */
+    margin-bottom: 4rem;
   }
 
   .label-score {
     margin-bottom: 1rem;
-    font-size: 1.5rem; /* Adjust margin for smaller screens */
+    font-size: 1.5rem;
   }
 
   .label-highscore {
